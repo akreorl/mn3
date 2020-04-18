@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 
@@ -23,6 +24,8 @@ async def on_message(message):
         await message.channel.send("https://discord.gg/wtzJpbK")
     if message.content.startswith("!도움"):
         await message.channel.send("```접두사는 !입니다 명령어:엠엔,트위치,유튜브,디코 입니다 엠엔 잘생김```")
+        
+         
 
-
-client.run("NzAwODgxODU0NjAxMTAxNDUz.Xpp5Hw.Ui3VzeX3onuORAnIgf7R-l98BLg")
+access_token = os.envirom["BOT_TOKEN"]
+client.run(access_token)
