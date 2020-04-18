@@ -21,7 +21,7 @@ async def on_message(message):
     if message.content.startswith("!유튜브"):
         await message.channel.send("https://www.youtube.com/channel/UCf91U-PfFdn74tC6v24X6ZQ")
     if message.content.startswith("!디코"):
-        await message.channel.send("https://discord.gg/wtzJpbK")
+        await message.channel.send("https://discord.gg/rDmbQT2")
     if message.content.startswith("!도움"):
         await message.channel.send("```접두사는 !입니다 명령어:엠엔,트위치,유튜브,디코 입니다 엠엔 잘생김```")
         
