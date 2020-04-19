@@ -1,1 +1,1 @@
-worker: python superstick12.py
+worker: python mn3bot.py
