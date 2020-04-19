@@ -23,9 +23,10 @@ async def on_message(message):
     if message.content.startswith("!디코"):
         await message.channel.send("https://discord.gg/rDmbQT2")
     if message.content.startswith("!도움"):
-        await message.channel.send("```접두사는 !입니다 명령어:엠엔,트위치,유튜브,디코,츠키노에용 입니다 엠엔 잘생김```")
+        await message.channel.send("```접두사는 !입니다 명령어:엠엔,트위치,유튜브,디코,츠키노에용,슈퍼막대기,앱쏠루뜨 입니다 엠엔 잘생김```")
     if message.content.startswith("!츠키노에용"):
         await message.channel.send("핵쟁이 매니져")
+         if message.content.startswith("!츠키노에용
 
         
          
